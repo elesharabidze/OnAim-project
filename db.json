@@ -1,0 +1,531 @@
+{
+  "leaderboards": [
+    {
+      "title": "Weekly High Rollers",
+      "description": "Top players by total wagered amount this week.",
+      "startDate": "2026-03-01T00:00:00.000Z",
+      "endDate": "2026-03-31T00:00:00.000Z",
+      "status": "active",
+      "scoringType": "wagered",
+      "maxParticipants": 998,
+      "prizes": [
+        {
+          "id": "lbp-1",
+          "name": "Gold Trophy",
+          "type": "coins",
+          "amount": 10000,
+          "imageUrl": "https://placehold.co/80x80?text=1st",
+          "rank": 1
+        },
+        {
+          "id": "lbp-2",
+          "name": "Silver Trophy",
+          "type": "freeSpin",
+          "amount": 50,
+          "imageUrl": "https://placehold.co/80x80?text=2nd",
+          "rank": 2
+        },
+        {
+          "id": "lbp-3",
+          "name": "Bronze Trophy",
+          "type": "bonus",
+          "amount": 500,
+          "imageUrl": "https://placehold.co/80x80?text=3rd",
+          "rank": 3
+        }
+      ],
+      "updatedAt": "2026-03-30T09:38:00.521Z",
+      "id": "lb-1"
+    },
+    {
+      "id": "lb-3",
+      "title": "February Points Race",
+      "description": "Earn the most points in February.",
+      "startDate": "2026-02-01T00:00:00.000Z",
+      "endDate": "2026-02-28T23:59:59.000Z",
+      "status": "completed",
+      "scoringType": "points",
+      "maxParticipants": 200,
+      "prizes": [
+        {
+          "id": "lbp-6",
+          "rank": 1,
+          "name": "Mega Jackpot",
+          "type": "coins",
+          "amount": 50000,
+          "imageUrl": "https://placehold.co/80x80?text=1st"
+        },
+        {
+          "id": "lbp-7",
+          "rank": 2,
+          "name": "Silver Chest",
+          "type": "coins",
+          "amount": 20000,
+          "imageUrl": "https://placehold.co/80x80?text=2nd"
+        },
+        {
+          "id": "lbp-8",
+          "rank": 3,
+          "name": "Bronze Chest",
+          "type": "bonus",
+          "amount": 5000,
+          "imageUrl": "https://placehold.co/80x80?text=3rd"
+        }
+      ],
+      "createdAt": "2026-01-20T08:00:00.000Z",
+      "updatedAt": "2026-03-01T00:00:00.000Z"
+    },
+    {
+      "id": "lb-4",
+      "title": "Spring Wagering Cup",
+      "description": "Compete for the highest wagered amount throughout spring.",
+      "startDate": "2026-05-01T00:00:00.000Z",
+      "endDate": "2026-05-31T23:59:59.000Z",
+      "status": "draft",
+      "scoringType": "wagered",
+      "maxParticipants": 75,
+      "prizes": [
+        {
+          "id": "lbp-9",
+          "rank": 1,
+          "name": "Spring Crown",
+          "type": "coins",
+          "amount": 25000,
+          "imageUrl": "https://placehold.co/80x80?text=1st"
+        },
+        {
+          "id": "lbp-10",
+          "rank": 2,
+          "name": "Elite Spins Pack",
+          "type": "freeSpin",
+          "amount": 200,
+          "imageUrl": "https://placehold.co/80x80?text=2nd"
+        },
+        {
+          "id": "lbp-11",
+          "rank": 3,
+          "name": "Power Bonus",
+          "type": "bonus",
+          "amount": 1500,
+          "imageUrl": "https://placehold.co/80x80?text=3rd"
+        }
+      ],
+      "createdAt": "2026-03-10T11:00:00.000Z",
+      "updatedAt": "2026-03-10T11:00:00.000Z"
+    },
+    {
+      "id": "lb-5",
+      "title": "VIP Points Blitz",
+      "description": "Exclusive leaderboard for VIP players. Earn points fast and claim elite rewards.",
+      "startDate": "2026-03-15T00:00:00.000Z",
+      "endDate": "2026-04-15T23:59:59.000Z",
+      "status": "active",
+      "scoringType": "points",
+      "maxParticipants": 25,
+      "prizes": [
+        {
+          "id": "lbp-12",
+          "rank": 1,
+          "name": "VIP Diamond Trophy",
+          "type": "coins",
+          "amount": 100000,
+          "imageUrl": "https://placehold.co/80x80?text=VIP1"
+        },
+        {
+          "id": "lbp-13",
+          "rank": 2,
+          "name": "VIP Gold Pack",
+          "type": "bonus",
+          "amount": 10000,
+          "imageUrl": "https://placehold.co/80x80?text=VIP2"
+        }
+      ],
+      "createdAt": "2026-03-01T15:00:00.000Z",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "id": "lb-6",
+      "title": "January Win Streak",
+      "description": "Most consecutive wins recorded in January.",
+      "startDate": "2026-01-01T00:00:00.000Z",
+      "endDate": "2026-01-31T23:59:59.000Z",
+      "status": "completed",
+      "scoringType": "wins",
+      "maxParticipants": 500,
+      "prizes": [
+        {
+          "id": "lbp-14",
+          "rank": 1,
+          "name": "Streak Master Badge + Coins",
+          "type": "coins",
+          "amount": 30000,
+          "imageUrl": "https://placehold.co/80x80?text=1st"
+        },
+        {
+          "id": "lbp-15",
+          "rank": 2,
+          "name": "Silver Streak",
+          "type": "freeSpin",
+          "amount": 150,
+          "imageUrl": "https://placehold.co/80x80?text=2nd"
+        },
+        {
+          "id": "lbp-16",
+          "rank": 3,
+          "name": "Bronze Streak",
+          "type": "freeSpin",
+          "amount": 75,
+          "imageUrl": "https://placehold.co/80x80?text=3rd"
+        },
+        {
+          "id": "lbp-17",
+          "rank": 4,
+          "name": "Consolation Spins",
+          "type": "freeSpin",
+          "amount": 25,
+          "imageUrl": "https://placehold.co/80x80?text=4th"
+        }
+      ],
+      "createdAt": "2025-12-20T09:00:00.000Z",
+      "updatedAt": "2026-02-01T00:00:00.000Z"
+    }
+  ],
+  "raffles": [
+    {
+      "id": "raf-1",
+      "name": "Easter Grand Raffle",
+      "description": "Win big prizes this Easter season! Buy your tickets now.",
+      "startDate": "2026-03-20T00:00:00.000Z",
+      "endDate": "2026-04-10T23:59:59.000Z",
+      "drawDate": "2026-04-12T18:00:00.000Z",
+      "status": "active",
+      "ticketPrice": 5,
+      "maxTicketsPerUser": 20,
+      "totalTicketLimit": 1000,
+      "prizes": [
+        {
+          "id": "rp-1",
+          "name": "Luxury Weekend Trip",
+          "type": "bonus",
+          "amount": 5000,
+          "quantity": 1,
+          "imageUrl": "https://placehold.co/300x200?text=Luxury+Trip"
+        },
+        {
+          "id": "rp-2",
+          "name": "Free Spins Bundle",
+          "type": "freeSpin",
+          "amount": 200,
+          "quantity": 5,
+          "imageUrl": "https://placehold.co/300x200?text=Free+Spins"
+        },
+        {
+          "id": "rp-3",
+          "name": "Coin Jackpot",
+          "type": "coins",
+          "amount": 10000,
+          "quantity": 3,
+          "imageUrl": "https://placehold.co/300x200?text=Coins"
+        }
+      ],
+      "createdAt": "2026-03-01T10:00:00.000Z",
+      "updatedAt": "2026-03-01T10:00:00.000Z"
+    },
+    {
+      "name": "VIP Monthly Draw",
+      "description": "Exclusive raffle for VIP members only. Unlimited entries available.",
+      "startDate": "2026-05-01T00:00:00.000Z",
+      "endDate": "2026-05-29T00:00:00.000Z",
+      "drawDate": "2026-05-31T00:00:00.000Z",
+      "status": "draft",
+      "ticketPrice": 25,
+      "maxTicketsPerUser": 5,
+      "prizes": [
+        {
+          "id": "rp-4",
+          "name": "Sports Car Experience",
+          "type": "bonus",
+          "amount": 10000,
+          "quantity": 2,
+          "imageUrl": "https://placehold.co/300x200?text=Sports+Car"
+        },
+        {
+          "id": "rp-5",
+          "name": "VIP Bonus Package",
+          "type": "bonus",
+          "amount": 2500,
+          "quantity": 3,
+          "imageUrl": "https://placehold.co/300x200?text=VIP+Bonus"
+        }
+      ],
+      "totalTicketLimit": null,
+      "updatedAt": "2026-03-30T09:37:39.524Z",
+      "id": "raf-2"
+    },
+    {
+      "id": "raf-3",
+      "name": "January Mega Draw",
+      "description": "Our biggest raffle of the year — drawn and winners announced!",
+      "startDate": "2026-01-05T00:00:00.000Z",
+      "endDate": "2026-01-28T23:59:59.000Z",
+      "drawDate": "2026-01-30T20:00:00.000Z",
+      "status": "drawn",
+      "ticketPrice": 10,
+      "maxTicketsPerUser": 50,
+      "totalTicketLimit": 5000,
+      "prizes": [
+        {
+          "id": "rp-6",
+          "name": "Grand Prize: 100k Coins",
+          "type": "coins",
+          "amount": 100000,
+          "quantity": 1,
+          "imageUrl": "https://placehold.co/300x200?text=Grand+Prize"
+        },
+        {
+          "id": "rp-7",
+          "name": "Runner-Up: 500 Spins",
+          "type": "freeSpin",
+          "amount": 500,
+          "quantity": 2,
+          "imageUrl": "https://placehold.co/300x200?text=Runner+Up"
+        },
+        {
+          "id": "rp-8",
+          "name": "Consolation Bonus",
+          "type": "bonus",
+          "amount": 250,
+          "quantity": 10,
+          "imageUrl": "https://placehold.co/300x200?text=Consolation"
+        }
+      ],
+      "createdAt": "2025-12-15T09:00:00.000Z",
+      "updatedAt": "2026-01-30T21:00:00.000Z"
+    },
+    {
+      "name": "Summer Splash Raffle",
+      "description": "Get ready for summer with amazing prizes.",
+      "startDate": "2026-06-01T00:00:00.000Z",
+      "endDate": "2026-06-28T00:00:00.000Z",
+      "drawDate": "2026-06-30T00:00:00.000Z",
+      "status": "draft",
+      "ticketPrice": 15,
+      "maxTicketsPerUser": 10,
+      "prizes": [
+        {
+          "id": "rp-9",
+          "name": "Beach Vacation Bonus",
+          "type": "bonus",
+          "amount": 3000,
+          "quantity": 1,
+          "imageUrl": "https://placehold.co/300x200?text=Beach"
+        },
+        {
+          "id": "rp-10",
+          "name": "Summer Spins Pack",
+          "type": "freeSpin",
+          "amount": 100,
+          "quantity": 10,
+          "imageUrl": "https://placehold.co/300x200?text=Summer+Spins"
+        }
+      ],
+      "totalTicketLimit": 20002,
+      "updatedAt": "2026-03-30T09:24:38.537Z",
+      "id": "raf-4"
+    },
+    {
+      "id": "raf-5",
+      "name": "Flash Weekend Raffle",
+      "description": "48-hour raffle with instant draw results.",
+      "startDate": "2026-02-14T00:00:00.000Z",
+      "endDate": "2026-02-15T23:59:59.000Z",
+      "drawDate": "2026-02-16T12:00:00.000Z",
+      "status": "cancelled",
+      "ticketPrice": 2,
+      "maxTicketsPerUser": 100,
+      "totalTicketLimit": 500,
+      "prizes": [
+        {
+          "id": "rp-11",
+          "name": "Valentine Coins",
+          "type": "coins",
+          "amount": 5000,
+          "quantity": 5,
+          "imageUrl": "https://placehold.co/300x200?text=Valentine"
+        }
+      ],
+      "createdAt": "2026-02-10T08:00:00.000Z",
+      "updatedAt": "2026-02-13T16:00:00.000Z"
+    }
+  ],
+  "wheels": [
+    {
+      "id": "whl-1",
+      "name": "Daily Spin Wheel",
+      "description": "Spin once a day for rewards.",
+      "status": "active",
+      "maxSpinsPerUser": 1,
+      "spinCost": 0,
+      "backgroundColor": "#1a1a2e",
+      "borderColor": "#e94560",
+      "segments": [
+        {
+          "id": "seg-1",
+          "label": "100 Coins",
+          "color": "#e94560",
+          "weight": 30,
+          "prizeType": "coins",
+          "prizeAmount": 100,
+          "imageUrl": ""
+        },
+        {
+          "id": "seg-2",
+          "label": "Try Again",
+          "color": "#16213e",
+          "weight": 25,
+          "prizeType": "nothing",
+          "prizeAmount": 0,
+          "imageUrl": ""
+        },
+        {
+          "id": "seg-3",
+          "label": "10 Free Spins",
+          "color": "#0f3460",
+          "weight": 20,
+          "prizeType": "freeSpin",
+          "prizeAmount": 10,
+          "imageUrl": ""
+        },
+        {
+          "id": "seg-4",
+          "label": "500 Coins",
+          "color": "#533483",
+          "weight": 15,
+          "prizeType": "coins",
+          "prizeAmount": 500,
+          "imageUrl": ""
+        },
+        {
+          "id": "seg-5",
+          "label": "$50 Bonus",
+          "color": "#e94560",
+          "weight": 8,
+          "prizeType": "bonus",
+          "prizeAmount": 50,
+          "imageUrl": ""
+        },
+        {
+          "id": "seg-6",
+          "label": "Jackpot 5000",
+          "color": "#f5a623",
+          "weight": 2,
+          "prizeType": "coins",
+          "prizeAmount": 5000,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2026-02-01T08:00:00.000Z",
+      "updatedAt": "2026-02-01T08:00:00.000Z"
+    },
+    {
+      "id": "whl-2",
+      "name": "VIP Wheel",
+      "description": "Premium wheel with higher-value prizes.",
+      "status": "draft",
+      "maxSpinsPerUser": 3,
+      "spinCost": 100,
+      "backgroundColor": "#0d0d0d",
+      "borderColor": "#ffd700",
+      "segments": [
+        {
+          "id": "seg-7",
+          "label": "1000 Coins",
+          "color": "#ffd700",
+          "weight": 40,
+          "prizeType": "coins",
+          "prizeAmount": 1000,
+          "imageUrl": ""
+        },
+        {
+          "id": "seg-8",
+          "label": "50 Free Spins",
+          "color": "#c0c0c0",
+          "weight": 35,
+          "prizeType": "freeSpin",
+          "prizeAmount": 50,
+          "imageUrl": ""
+        },
+        {
+          "id": "seg-9",
+          "label": "$200 Bonus",
+          "color": "#cd7f32",
+          "weight": 20,
+          "prizeType": "bonus",
+          "prizeAmount": 200,
+          "imageUrl": ""
+        },
+        {
+          "id": "seg-10",
+          "label": "Nothing",
+          "color": "#333333",
+          "weight": 5,
+          "prizeType": "nothing",
+          "prizeAmount": 0,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2026-03-05T12:00:00.000Z",
+      "updatedAt": "2026-03-05T12:00:00.000Z"
+    },
+    {
+      "name": "Test Wheel",
+      "description": "",
+      "status": "draft",
+      "segments": [
+        {
+          "label": "Prize 1",
+          "color": "#E74C3C",
+          "weight": 15,
+          "prizeType": "coins",
+          "prizeAmount": 100,
+          "imageUrl": "",
+          "id": "0a48b004-2841-48ab-8b3e-fc1e77b2cf39"
+        },
+        {
+          "label": "Prize 2",
+          "color": "#3498DB",
+          "weight": 35,
+          "prizeType": "coins",
+          "prizeAmount": 100,
+          "imageUrl": "",
+          "id": "e706985e-20a0-444f-9153-478028de939f"
+        },
+        {
+          "label": "Prize 3",
+          "color": "#2ECC71",
+          "weight": 20,
+          "prizeType": "coins",
+          "prizeAmount": 100,
+          "imageUrl": "",
+          "id": "3d83eaca-36d8-4c11-84bc-8d4bfc9a9e25"
+        },
+        {
+          "label": "Prize 4",
+          "color": "#F39C12",
+          "weight": 30,
+          "prizeType": "coins",
+          "prizeAmount": 100,
+          "imageUrl": "",
+          "id": "9beee3a1-5bbe-49ee-871e-94ce93b5e1c4"
+        }
+      ],
+      "maxSpinsPerUser": 1,
+      "spinCost": 0,
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#2C3E50",
+      "createdAt": "2026-03-29T18:22:23.985Z",
+      "updatedAt": "2026-03-29T18:22:23.985Z",
+      "id": "noRh-X0"
+    }
+  ]
+}
