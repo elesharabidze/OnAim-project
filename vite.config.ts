@@ -12,8 +12,12 @@ export default defineConfig(async () => {
       react(),
       vercel({
         entries,
-        // Exclude /api/* so json-server is not rewritten to index.html (order alone is not enough).
-        rewrites: [{ source: '/((?!api/).*)', destination: '/index.html' }],
+        rewrites: [
+          // Normalize trailing slash in API URLs: /api/x/ -> /api/x
+          { source: '/api/(.*)/', destination: '/api/$1' },
+          // Exclude /api/* so json-server is not rewritten to SPA index.
+          { source: '/((?!api/).*)', destination: '/static/index.html' },
+        ],
       }),
     ],
     resolve: {
