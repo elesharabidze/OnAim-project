@@ -10,6 +10,9 @@ server.use((req, _res, next) => {
   if (req.url?.startsWith('/api')) {
     req.url = req.url.slice(4) || '/'
   }
+  if (req.url && req.url.length > 1 && req.url.endsWith('/')) {
+    req.url = req.url.slice(0, -1)
+  }
   next()
 })
 
