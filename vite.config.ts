@@ -12,7 +12,8 @@ export default defineConfig(async () => {
       react(),
       vercel({
         entries,
-        rewrites: [{ source: '/(.*)', destination: '/index.html' }],
+        // Exclude /api/* so json-server is not rewritten to index.html (order alone is not enough).
+        rewrites: [{ source: '/((?!api/).*)', destination: '/index.html' }],
       }),
     ],
     resolve: {
